@@ -29,6 +29,7 @@ a {
     background-color: black;
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a :hover {
@@ -74,6 +75,10 @@ a :hover {
     padding: 1rem;
 }
 
+.influences {
+    font-style: normal;
+    font-weight: 300;
+}
 
 
 
@@ -94,7 +99,7 @@ a :hover {
 }
 
 .review-kr {
-    background-color: white;
+    background-color: whitesmoke;
 
     margin-right: 1rem;
     padding: 1rem;
@@ -105,7 +110,7 @@ a :hover {
 }
 
 .review-en {
-    background-color: white;
+    background-color: whitesmoke;
     margin-left: 1rem;
     padding: 1rem;
 
@@ -121,6 +126,24 @@ a :hover {
     word-wrap: break-word;
 }
 
-.review-quote-kr, .review-quote-en {
+.review-quote {
     font-style: italic;
+}
+
+
+
+/* list.html */
+.list-container {
+    font-size: xx-large;
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 700;
+    font-style: italic;
+
+    position: absolute;
+    left: 20%;
+    top: 30%;
+
+    width: auto;
+    height: 26%;
+    overflow-y: auto;
 }
