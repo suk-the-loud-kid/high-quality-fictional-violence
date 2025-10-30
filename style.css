@@ -52,7 +52,7 @@ a :hover {
 
 /* about.html */
 #about {
-    background-image: url(/assets/credit.png);
+    background-image: url(./assets/credit.png);
     background-size: cover;
     border-collapse: collapse;
 }
