@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 body {
-    background-image: url(https://github.com/suk-the-loud-kid/high-quality-fictional-violence/blob/main/assets/cover.png?raw=true);
+    background-image: url(./assets/cover.png);
     background-size: cover;
     border-collapse: collapse;
 
