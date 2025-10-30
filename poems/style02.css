@@ -14,6 +14,32 @@ body {
     line-height: 160%;
 }
 
+.bg01 {
+    background-image: url(/assets/bg01.png);
+    background-size: cover;
+    border-collapse: collapse;
+}
+
+.bg02 {
+    background-image: url(/assets/bg02.png);
+    background-size: cover;
+    border-collapse: collapse;
+}
+
+.bg03 {
+    background-image: url(/assets/bg03.png);
+    background-size: cover;
+    border-collapse: collapse;
+}
+
+.bg04 {
+    background-image: url(/assets/bg04.png);
+    background-size: cover;
+    border-collapse: collapse;
+}
+
+
+
 a {
     /* background-color: transparent; */
     color: whitesmoke;
@@ -30,16 +56,23 @@ a {
     font-weight: 700;
     font-size: xx-large;
     font-style: italic;
+
+    text-align: center;
 }
 
 .container {
-    position: absolute;
-    top: 20%;
+    background: #000000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
+    color: whitesmoke;
 
-    width: 80%;
-    height: 40%;
+    position: absolute;
+
+    width: 60%;
+    height: 60%;
     /* overflow-x: hidden; */
     overflow-y: auto;
+
+    padding: 2rem;
 }
 
 #moreText01, #moreText02, #moreText03, #moreText04, #moreText05, #moreText06 {
