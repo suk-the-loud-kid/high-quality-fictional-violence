@@ -15,25 +15,25 @@ body {
 }
 
 .bg01 {
-    background-image: url(/assets/bg01.png);
+    background-image: url(./assets/bg01.png);
     background-size: cover;
     border-collapse: collapse;
 }
 
 .bg02 {
-    background-image: url(/assets/bg02.png);
+    background-image: url(./assets/bg02.png);
     background-size: cover;
     border-collapse: collapse;
 }
 
 .bg03 {
-    background-image: url(/assets/bg03.png);
+    background-image: url(./assets/bg03.png);
     background-size: cover;
     border-collapse: collapse;
 }
 
 .bg04 {
-    background-image: url(/assets/bg04.png);
+    background-image: url(./assets/bg04.png);
     background-size: cover;
     border-collapse: collapse;
 }
